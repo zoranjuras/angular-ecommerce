@@ -18,7 +18,7 @@ export class ProductDetailsComponent {
 
     ngOnInit(): void {
       this.route.paramMap.subscribe(() =>{
-        this.handleProductDetails();
+      this.handleProductDetails();
       })
     }
 
