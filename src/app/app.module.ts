@@ -47,6 +47,7 @@ const routes: Routes = [
     AppRoutingModule,
     NgbModule,
     ReactiveFormsModule
+
     // HttpClientModule is removed
   ],
   providers: [
