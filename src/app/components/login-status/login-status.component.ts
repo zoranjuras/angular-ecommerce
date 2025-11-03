@@ -1,13 +1,14 @@
 import { CommonModule, DOCUMENT } from '@angular/common';
 import { Component, Inject } from '@angular/core';
 import { AuthService } from '@auth0/auth0-angular';
+import { AppRoutingModule } from "../../app-routing.module";
 
 @Component({
   selector: 'app-login-status',
   // template: '<button (click)="login()">Log in</button>',
   templateUrl: './login-status.component.html',
   styleUrl: './login-status.component.css',
-  imports: [CommonModule]
+  imports: [CommonModule, AppRoutingModule]
 })
 export class LoginStatusComponent {
 

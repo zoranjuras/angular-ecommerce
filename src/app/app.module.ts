@@ -27,7 +27,7 @@ import { MembersPageComponent } from './components/members-page/members-page.com
 
 const routes: Routes = [
   // {path: 'order-history', component: OrderHistoryComponent, canActivate: [AuthGuard]},
-  // {path: 'members', component: MembersPageComponent,  canActivate: [AuthGuard] },
+  {path: 'members', component: MembersPageComponent,  canActivate: [AuthGuard] },
   {path: 'checkout', component: CheckoutComponent},
   {path: 'cart-details', component: CartDetailsComponent},
   {path: 'products/:id', component: ProductDetailsComponent},
