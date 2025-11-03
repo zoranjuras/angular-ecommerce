@@ -23,6 +23,7 @@ import { AuthGuard, AuthHttpInterceptor, AuthModule } from '@auth0/auth0-angular
 import myAppConfig from './config/my-app-config';
 import { AuthInterceptorService } from './services/auth-interceptor.service';
 import { CommonModule } from '@angular/common';
+import { MembersPageComponent } from './components/members-page/members-page.component';
 
 const routes: Routes = [
   // {path: 'order-history', component: OrderHistoryComponent, canActivate: [AuthGuard]},
@@ -47,7 +48,8 @@ const routes: Routes = [
     ProductDetailsComponent,
     CartStatusComponent,
     CartDetailsComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    MembersPageComponent
   ],
   imports: [
     CommonModule,
